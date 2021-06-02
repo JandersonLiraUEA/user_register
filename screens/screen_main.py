@@ -141,18 +141,6 @@ class ScreenMain(QWidget, MethodsMain):
 
         self.setLayout(self.layout_main)
 
-        self.line_name.setText("Janderson Lira")
-        self.date_birth_date.setDate(QDate(1995, 7, 5))
-        self.line_cpf.setText("01689691220")
-        self.line_cep.setText("69074580")
-        self.line_type_street_location.setText("Rua")
-        self.line_street_location.setText("Cretenses")
-        self.line_number.setText("2A")
-        self.line_district.setText("Morro da Liberdade")
-        self.line_city.setText("Manaus")
-        self.cbbox_state.setCurrentIndex(3)
-        self.line_email.setText("janders.nlira@gmail.com")
-
     def set_connections(self):
         """
         Connect events (clicked, returnPressed, signals and others)
